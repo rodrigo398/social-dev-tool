@@ -25,6 +25,7 @@ import Profile from './components/profile/Profile';
 import Posts from './components/posts/Posts';
 import Post from './components/post/Post';
 import NotFound from './components/not-found/NotFound';
+import Contact from './components/contact/Contact';
 
 import './App.css';
 
@@ -60,6 +61,7 @@ class App extends Component {
             <Navbar />
             <Route exact path="/" Component={Landing} />
             <div className="container">
+              <Route exact path="/contact" component={Contact} />
               <Route exact path="/register" component={Register} />
               <Route exact path="/login" component={Login} />
               <Route exact path="/profiles" component={Profiles} />

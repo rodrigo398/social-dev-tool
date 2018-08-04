@@ -2,3 +2,10 @@
 package-lock.json
 /config/keys_dev.js
 /.project
+
+#vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
